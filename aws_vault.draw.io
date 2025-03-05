@@ -919,7 +919,7 @@
           <mxGeometry x="-1859" y="299.25" width="42" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-147" value="Each vault has separate KMS CMKs" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2079" y="322" width="187" height="30" as="geometry" />
+          <mxGeometry x="-2065" y="322" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-145" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1053,7 +1053,7 @@
             <mxPoint x="-911" y="211.04000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is &quot;unsupported&quot; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is &quot;unsupported&quot;. It will use the same KMS encryption key from source.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="520" y="-780.28" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-49" target="Vr7T0E1yOJ3Gc7sArdUd-20">
