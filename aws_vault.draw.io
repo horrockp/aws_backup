@@ -1026,9 +1026,13 @@
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-26" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) from Vault&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="265" y="-536" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-19">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="-590" as="targetPoint" />
+            <mxPoint x="350" y="-504" as="sourcePoint" />
+            <mxPoint x="250" y="-594" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="251" y="-504" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-31" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) from origin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
@@ -1036,8 +1040,8 @@
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="354" y="-774" as="sourcePoint" />
-            <mxPoint x="188" y="-673.3800000000001" as="targetPoint" />
+            <mxPoint x="354" y="-757" as="sourcePoint" />
+            <mxPoint x="188" y="-677" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
