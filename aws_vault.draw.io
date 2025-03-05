@@ -871,7 +871,7 @@
           <mxGeometry x="-1864" y="-616.5" width="59.5" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-72" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2145" y="-852" width="30" height="30" as="geometry" />
+          <mxGeometry x="-2145" y="-851" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-73" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2105" y="-600" width="30" height="30" as="geometry" />
@@ -951,8 +951,8 @@
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="706.5" y="-240" as="targetPoint" />
-            <mxPoint x="707" y="-140" as="sourcePoint" />
+            <mxPoint x="700" y="-243" as="targetPoint" />
+            <mxPoint x="700.5" y="-143" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-159" value="SSO" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.single_sign_on;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
