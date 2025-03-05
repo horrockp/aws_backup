@@ -849,7 +849,7 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-60" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;SCP Policy to prevent tenant engineers from modifying backups in the local account. Restore backups is not restricted. Add condition to all backup role full access.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2060" y="-590" width="187" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-64" value="Prod and non-Prod Policies applied to OU. These policies have different retention values in-line with each requirement. A back selection is also created as part of the policy to target RDS and DynamoDB using  resource assignment and the Resource ID." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-64" value="Prod and non-Prod Policies applied to OU. These policies have different retention values in-line with each requirement. A back selection is also created as part of the policy to target RDS and DynamoDB using  resource alignment (Resource ID or Tag)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2065" y="-819" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-65" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" target="4ELEi_1Yac6hKeduee7r-56" source="4ELEi_1Yac6hKeduee7r-138">
@@ -1063,6 +1063,9 @@
               <mxPoint x="500" y="-774" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-52" value="Resource Alignment (Tag)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Tag.svg;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-1600.77" y="-791" width="30.54" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
