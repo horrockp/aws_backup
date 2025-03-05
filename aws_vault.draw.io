@@ -843,14 +843,14 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-48" value="Prod" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_organizational_unit2;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1569" y="-902" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" source="4ELEi_1Yac6hKeduee7r-137">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1510" y="-812" as="sourcePoint" />
             <mxPoint x="-1418" y="-812" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1537" y="-812" />
+            </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-56" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-1643" y="-823" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-60" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;SCP Policy to prevent tenant engineers from modifying backups in the local account. Restore backups is not restricted. Add condition to all backup role full access.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2060" y="-590" width="187" height="30" as="geometry" />
@@ -858,7 +858,7 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-64" value="Prod and non-Prod Policies applied to OU. These policies have different retention values in-line with each requirement. A back selection is also created as part of the policy to target RDS and DynamoDB via TAG or Resource ID. Each tenant will have a separate backup policy." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2065" y="-819" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-65" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" source="4ELEi_1Yac6hKeduee7r-138">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-65" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" target="4ELEi_1Yac6hKeduee7r-56" source="4ELEi_1Yac6hKeduee7r-138">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1780" y="-810" as="sourcePoint" />
             <mxPoint x="-1660.4999999999995" y="-810.2499999999998" as="targetPoint" />
@@ -993,6 +993,9 @@
             <mxPoint x="-1549" y="-822" as="sourcePoint" />
             <mxPoint x="-1549.28" y="-853" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4ELEi_1Yac6hKeduee7r-56" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+          <mxGeometry x="-1643" y="-823" width="23" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
