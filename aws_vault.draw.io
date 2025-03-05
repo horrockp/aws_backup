@@ -912,14 +912,14 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-142" value="&lt;div&gt;Vault Access&lt;/div&gt;&lt;div&gt;&amp;nbsp;Policy&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.policy;fillColor=#5294CF;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1854.5" y="50" width="50" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-143" value="&lt;div align=&quot;left&quot;&gt;Vault policy to restrict cross tenant access&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2080" y="80" width="187" height="30" as="geometry" />
+        <mxCell id="4ELEi_1Yac6hKeduee7r-143" value="&lt;div align=&quot;left&quot;&gt;Vault policy used&amp;nbsp; to restrict access. Its also requires the permission for cross account copy.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;code&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;code&gt;&quot;Action&quot;:&quot;backup:CopyIntoBackupVault&quot;&lt;/code&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+          <mxGeometry x="-2145" y="70" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-145" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1859" y="299.25" width="42" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-147" value="Each vault has separate KMS CMKs" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2075" y="322" width="187" height="30" as="geometry" />
+          <mxGeometry x="-2079" y="322" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-145" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1052,6 +1052,9 @@
             <mxPoint x="-1014" y="211" as="sourcePoint" />
             <mxPoint x="-911" y="211.04000000000002" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is unsupported and does not&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="520" y="-780.28" width="187" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
