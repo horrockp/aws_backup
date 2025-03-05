@@ -213,7 +213,7 @@
           </mxCell>
         </object>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-197" value="&lt;div&gt;AWS Organization&amp;nbsp;&lt;/div&gt;&lt;div&gt;Backup Policies&lt;/div&gt;" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDhweCIgaGVpZ2h0PSI0OHB4IiB2aWV3Qm94PSIwIDAgNDggNDgiIHZlcnNpb249IjEuMSI+JiN4YTsgICAgPHRpdGxlPkljb24tUmVzb3VyY2UvU3RvcmFnZS9SZXNfQVdTLUJhY2t1cF9CYWNrdXAtUGxhbl80ODwvdGl0bGU+JiN4YTsgICAgPGcgaWQ9Ikljb24tUmVzb3VyY2UvU3RvcmFnZS9SZXNfQVdTLUJhY2t1cF9CYWNrdXAtUGxhbl80OCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+JiN4YTsgICAgICAgIDxwYXRoIGQ9Ik0zOSw0NCBMMzksMTIgTDMyLDEyIEMzMS40NDcsMTIgMzEsMTEuNTUyIDMxLDExIEwzMSw0IEw5LDQgTDksNDQgTDM5LDQ0IFogTTMzLDEwIEwzNy41ODYsMTAgTDMzLDUuNDE0IEwzMywxMCBaIE00MSwxMSBMNDEsNDUgQzQxLDQ1LjU1MiA0MC41NTMsNDYgNDAsNDYgTDgsNDYgQzcuNDQ3LDQ2IDcsNDUuNTUyIDcsNDUgTDcsMyBDNywyLjQ0OCA3LjQ0NywyIDgsMiBMMzIsMiBMMzIsMi4wMSBDMzIuMjYsMi4wMSAzMi41MTYsMi4xMDIgMzIuNzA3LDIuMjkzIEw0MC43MDcsMTAuMjkzIEM0MC44OTgsMTAuNDg0IDQwLjk5LDEwLjc0IDQwLjk5MSwxMSBMNDEsMTEgWiBNMzQuNTc5LDM2LjQyNCBMMzIuOTE0LDM4LjA4OSBMMzEuMjQ5LDM2LjQyNCBMMjkuODM1LDM3LjgzOCBMMzEuNSwzOS41MDMgTDI5LjgzNSw0MS4xNjggTDMxLjI0OSw0Mi41ODMgTDMyLjkxNCw0MC45MTcgTDM0LjU3OSw0Mi41ODMgTDM1Ljk5Myw0MS4xNjggTDM0LjMyOCwzOS41MDMgTDM1Ljk5MywzNy44MzggTDM0LjU3OSwzNi40MjQgWiBNMTUuNSwxMiBDMTYuMzI3LDEyIDE3LDExLjMyNyAxNywxMC41IEMxNyw5LjY3MyAxNi4zMjcsOSAxNS41LDkgQzE0LjY3Myw5IDE0LDkuNjczIDE0LDEwLjUgQzE0LDExLjMyNyAxNC42NzMsMTIgMTUuNSwxMiBMMTUuNSwxMiBaIE0xNS41LDE0IEMxMy41NywxNCAxMiwxMi40MyAxMiwxMC41IEMxMiw4LjU3IDEzLjU3LDcgMTUuNSw3IEMxNy40Myw3IDE5LDguNTcgMTksMTAuNSBDMTksMTIuNDMgMTcuNDMsMTQgMTUuNSwxNCBMMTUuNSwxNCBaIE0yNS41MjcsMzYuODc2IEMyNC45OTMsMzYuOTU0IDI0LjQ1OSwzNi45OTIwMDEgMjMuOTI5LDM2Ljk5MjAwMSBDMjEuNTk2LDM2Ljk5MyAxOS4zMzQsMzYuMjQ3IDE3LjQzLDM0LjgyNyBDMTQuNjYyLDMyLjc2NCAxMy4wNjEsMjkuNTk5IDEzLjAzNywyNi4xNDMgTDE1LjAzNywyNi4xMjkgQzE1LjA1NywyOC45NTMgMTYuMzY0LDMxLjUzOCAxOC42MjUsMzMuMjIzIEMyMC41MzQsMzQuNjQ2IDIyLjg3OSwzNS4yMzggMjUuMjM5LDM0Ljg5NyBDMjcuNTk1LDM0LjU1MyAyOS42NzcsMzMuMzEyIDMxLjEsMzEuNDAzIEMzNC4wMzcsMjcuNDYyIDMzLjIyMSwyMS44NjYgMjkuMjgsMTguOTI4IEMyNS42MDQsMTYuMTg3IDIwLjQ4NywxNi43MTcgMTcuNDMyLDIwIEwxOSwyMCBMMTksMjIgTDE1LDIyIEMxNC40NDcsMjIgMTQsMjEuNTUyIDE0LDIxIEwxNCwxNyBMMTYsMTcgTDE2LDE4LjYwNiBDMTkuNzQzLDE0LjYxNCAyNS45ODYsMTMuOTc4IDMwLjQ3NiwxNy4zMjQgQzM1LjMwMSwyMC45MjEgMzYuMywyNy43NzMgMzIuNzAzLDMyLjU5OCBDMzAuOTYxLDM0LjkzNiAyOC40MTIsMzYuNDU1IDI1LjUyNywzNi44NzYgTDI1LjUyNywzNi44NzYgWiIgaWQ9IkZpbGwtMSIgZmlsbD0iIzdBQTExNiIvPiYjeGE7ICAgIDwvZz4mI3hhOzwvc3ZnPg;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1" rdfUpgraded="1" assetTypeVersion="3">
-          <mxGeometry x="-700" y="-860" width="87" height="87" as="geometry" />
+          <mxGeometry x="-660" y="-860" width="87" height="87" as="geometry" />
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-197" serialization-version="v0" as="resourceDescriptor">
             <SemanticDataContainer serialization-version="v0">
               <IRI resource="https://ontology.security.amazon.dev/design-inspector/stencils" property="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" />
@@ -916,7 +916,7 @@
           <mxGeometry x="-2080" y="80" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-145" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-1860" y="299.25" width="42" height="51.5" as="geometry" />
+          <mxGeometry x="-1859" y="299.25" width="42" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-147" value="Each vault has separate KMS CMKs" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2075" y="322" width="187" height="30" as="geometry" />
@@ -961,22 +961,13 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-168" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(Backup Role)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1720" y="489.5" width="58" height="32.72" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1891.79" y="428.63666666666626" as="sourcePoint" />
-            <mxPoint x="-1759.207312915797" y="428.50333333333305" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-169" value="Allows restore operations. (Privileged role)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2080" y="418" width="187" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1897.58" y="523.9933333333338" as="sourcePoint" />
             <mxPoint x="-1756.997312915797" y="523.8600000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-172" value="&lt;div&gt;Custom backup role.Allows for all backup&amp;nbsp; and restore operations. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-172" value="&lt;div&gt;Custom backup role.Allows for all backup and restore operations. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2083" y="516" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-1" value="Organizations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
@@ -1013,6 +1004,16 @@
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-16" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-2080" y="554.94" width="49.79" height="62.64" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-67" y="-714" as="sourcePoint" />
+            <mxPoint x="1.1799999999999997" y="-675.22" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-67.32" y="-643.72" />
+              <mxPoint x="-7.32" y="-713.72" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
