@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="5474" dy="3329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4354" dy="2790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -578,7 +578,7 @@
         <object label="" stencilType="generic-channel" id="pHTv7vlGpXE6G7NwfBMzh-330">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="MSfuaUPVYC9dlxVIRu32H" edge="1" rdfUpgraded="1" assetTypeVersion="3">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-1660.5" y="518.5" as="targetPoint" />
+              <mxPoint x="-1650" y="520" as="targetPoint" />
             </mxGeometry>
             <ResourceDescriptor resource="_:pHTv7vlGpXE6G7NwfBMzh-330" serialization-version="v0" as="resourceDescriptor">
               <SemanticDataContainer serialization-version="v0">
@@ -805,7 +805,7 @@
           <mxGeometry x="383" y="-417" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-19" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;&amp;nbsp;(Backup Role)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-1730" y="491.14" width="58" height="32.72" as="geometry" />
+          <mxGeometry x="-1722" y="491.14" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-24" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1450.5" y="310" width="20" height="30" as="geometry" />
@@ -933,7 +933,7 @@
           <mxGeometry x="-1860" y="299.25" width="42" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-147" value="Each vault has separate KMS CMKs" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2070" y="320.75" width="187" height="30" as="geometry" />
+          <mxGeometry x="-2079" y="320.75" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-145" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -972,8 +972,8 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-159" value="SSO" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.single_sign_on;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="664.5" y="-130" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-168" value="Tenant Restore Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-1728" y="393.5" width="58" height="32.72" as="geometry" />
+        <mxCell id="4ELEi_1Yac6hKeduee7r-168" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(Backup Operations)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+          <mxGeometry x="-1720" y="391.28" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -982,7 +982,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-169" value="Allows restore operations. (Privileged role)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2080" y="424" width="187" height="30" as="geometry" />
+          <mxGeometry x="-2080" y="418" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -991,7 +991,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-172" value="Allows for all backup operations. (Privileged role). Role is is by AWS backup and cannot be assumed." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2075" y="534" width="187" height="30" as="geometry" />
+          <mxGeometry x="-2079" y="524" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-1730" y="-930" width="220" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-1" value="Organizations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-1650" y="-934.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
