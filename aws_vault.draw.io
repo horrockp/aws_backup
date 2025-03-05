@@ -999,8 +999,8 @@
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-14" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(Backup Role)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="350" y="-415.03999999999996" width="58" height="32.72" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-15" value="&quot;AWSBackupServiceRolePolicyForBackup&quot;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-2113.5" y="640" width="260" height="40" as="geometry" />
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-15" value="&lt;div&gt;&quot;AWSBackupServiceRolePolicyForBackup&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For cross-account backups using AWS Backup, the destination account role needs access to the KMS keys in the source account. &lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-2083" y="643" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-16" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-2030" y="554.94" width="49.79" height="62.64" as="geometry" />
@@ -1053,8 +1053,16 @@
             <mxPoint x="-911" y="211.04000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is unsupported and does not&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is &quot;unsupported&quot; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="520" y="-780.28" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-49" target="Vr7T0E1yOJ3Gc7sArdUd-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="-774" />
+              <mxPoint x="500" y="-774" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
