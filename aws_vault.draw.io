@@ -185,7 +185,7 @@
         <object label="" stencilType="generic-channel" id="ac2m1fOzcvB4Ko4bX1cEW-191">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;jettySize=auto;orthogonalLoop=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="1y2fcXZDoxypKr6scuOuc" edge="1" rdfUpgraded="1" assetTypeVersion="3">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-700" y="-810" as="targetPoint" />
+              <mxPoint x="-670" y="-810" as="targetPoint" />
               <Array as="points">
                 <mxPoint x="-1409" y="-810" />
                 <mxPoint x="-710" y="-810" />
