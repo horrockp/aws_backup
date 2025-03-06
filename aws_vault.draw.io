@@ -71,7 +71,7 @@
         </object>
         <object label="&lt;b&gt;Workload Account&lt;/b&gt; " stencilType="aws-cloud" id="5eWHfoeOuGeRBtK6SLyq4">
           <mxCell style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws20.group;grIcon=mxgraph.aws20.group_aws_cloud;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1" rdfUpgraded="1" assetTypeVersion="3">
-            <mxGeometry x="-439.5" y="-1005" width="929.5" height="840" as="geometry" />
+            <mxGeometry x="-439.5" y="-1000" width="929.5" height="835" as="geometry" />
             <ResourceDescriptor resource="_:5eWHfoeOuGeRBtK6SLyq4" serialization-version="v0" as="resourceDescriptor">
               <SemanticDataContainer serialization-version="v0">
                 <StringLiteral content="MN3vT83M8JpsDk6bnzdzP" property="https://ontology.security.amazon.dev/foundation/diagram-visualization/05cc531c-d241-49c3-80dc-bd3777c5426f" />
