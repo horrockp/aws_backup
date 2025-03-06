@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16" pages="2">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
     <mxGraphModel dx="4805" dy="2894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1085,11 +1085,22 @@
           <mxGeometry x="-2150" y="-980.75" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-64" value="SCP policy to remove write access to Backup account for platform tenants" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-2100" y="-980.75" width="200" height="30" as="geometry" />
+          <mxGeometry x="-2093" y="-980.75" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-65" value="Also add policy to restrict access to platofrm tenant " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-2153" y="130" width="275" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-66" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-2198" y="129" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="augIMcAzYZsW8FqQTyJ_" name="Restore Process">
+    <mxGraphModel dx="1194" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
