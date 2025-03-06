@@ -52,7 +52,7 @@
           <mxGeometry x="-1730" y="-930" width="220" height="97" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-105" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-1750" y="267" width="980" height="363" as="geometry" />
+          <mxGeometry x="-1750" y="267" width="970" height="363" as="geometry" />
         </mxCell>
         <object label="" stencilType="generic-channel" id="pHTv7vlGpXE6G7NwfBMzh-313">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="ac2m1fOzcvB4Ko4bX1cEW-197" target="pHTv7vlGpXE6G7NwfBMzh-312" edge="1" rdfUpgraded="1" assetTypeVersion="3">
@@ -951,12 +951,12 @@
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="-243" as="targetPoint" />
-            <mxPoint x="700.5" y="-143" as="sourcePoint" />
+            <mxPoint x="678.5" y="-235" as="targetPoint" />
+            <mxPoint x="679" y="-135" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-159" value="SSO" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.single_sign_on;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="664.5" y="-130" width="78" height="78" as="geometry" />
+          <mxGeometry x="640" y="-120" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-168" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(Backup Role)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1720" y="489.5" width="58" height="32.72" as="geometry" />
