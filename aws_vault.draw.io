@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="5258" dy="3363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5474" dy="3363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -963,12 +963,12 @@
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1894.58" y="523.9933333333338" as="sourcePoint" />
-            <mxPoint x="-1753.997312915797" y="523.8600000000006" as="targetPoint" />
+            <mxPoint x="-1894.58" y="519.9933333333338" as="sourcePoint" />
+            <mxPoint x="-1753.997312915797" y="519.8600000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-172" value="&lt;div&gt;Custom backup role.Allows for all backup and restore operations. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-2083" y="516" width="187" height="30" as="geometry" />
+          <mxGeometry x="-2083" y="511" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-1" value="Organizations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-1650" y="-934.5" width="60" height="30" as="geometry" />
@@ -983,7 +983,7 @@
           <mxGeometry x="-1643" y="-823" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-9" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-930" y="522.22" width="58" height="32.72" as="geometry" />
+          <mxGeometry x="-902" y="522.22" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-10" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-110" y="-783.0000000000001" width="58" height="32.72" as="geometry" />
