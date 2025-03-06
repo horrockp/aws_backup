@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16" pages="2">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="4805" dy="2894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4522" dy="2894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -938,7 +938,7 @@
             <mxPoint x="330" y="-283" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-154" value="devops role creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="4ELEi_1Yac6hKeduee7r-153" vertex="1" connectable="0">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-154" value="tenant role creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="4ELEi_1Yac6hKeduee7r-153" vertex="1" connectable="0">
           <mxGeometry x="-0.015" y="1" relative="1" as="geometry">
             <mxPoint x="30" y="-1" as="offset" />
           </mxGeometry>
@@ -946,7 +946,7 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-156" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="540" y="-313.96" width="49.79" height="62.64" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-157" value="Tenant Engineers have full access to backup operations in local account" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-157" value="Tenant Engineers have full access to backup operations in local account. Vault modification and changes to the backup process are restricted&amp;nbsp; by an SCP" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="610" y="-297.28" width="187" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
@@ -958,7 +958,7 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-159" value="SSO" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.single_sign_on;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="640" y="-120" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-168" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(BackupRole)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-168" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AdminBackupRole)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1720" y="489.5" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
@@ -1092,6 +1092,9 @@
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-66" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-2198" y="129" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaGiZCkFB656JY5QjU3u-0" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Restore Solution&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Backups can be restored on-demand locally from the member backup vault, restored inside the backup account environment&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-1193.5" y="-1320" width="560" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
