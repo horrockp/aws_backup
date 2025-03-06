@@ -415,7 +415,7 @@
         <object label="AWS Organization &lt;br&gt;backup policies creation" stencilType="text" id="pHTv7vlGpXE6G7NwfBMzh-279">
           <mxCell style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="pHTv7vlGpXE6G7NwfBMzh-278" vertex="1" connectable="0" rdfUpgraded="1" assetTypeVersion="3">
             <mxGeometry x="0.6465" y="1" relative="1" as="geometry">
-              <mxPoint x="3" y="12" as="offset" />
+              <mxPoint x="2" y="7" as="offset" />
             </mxGeometry>
             <ResourceDescriptor resource="_:pHTv7vlGpXE6G7NwfBMzh-279" serialization-version="v0" as="resourceDescriptor">
               <SemanticDataContainer serialization-version="v0">
@@ -940,7 +940,7 @@
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-154" value="devops role creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="4ELEi_1Yac6hKeduee7r-153" vertex="1" connectable="0">
           <mxGeometry x="-0.015" y="1" relative="1" as="geometry">
-            <mxPoint x="20" as="offset" />
+            <mxPoint x="30" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-156" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
