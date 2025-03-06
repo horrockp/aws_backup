@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="5474" dy="3363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5258" dy="3363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -993,7 +993,7 @@
             <mxPoint x="-700" y="539" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-11" value="&lt;li&gt;This is a service-linked role, which is automatically created by AWS Backup.&lt;/li&gt;&#xa;&lt;li&gt;It&#39;s used for core AWS Backup operations, such as listing resources that can be backed up and copying backups.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-11" value="&lt;li&gt;This is a service-linked role, which is automatically created by AWS Backup and used by AWS backup service itself..&lt;/li&gt;&lt;br&gt;&lt;li&gt;It&#39;s used for core AWS Backup operations, such as listing resources that can be backed up and copying backups.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-690" y="498.58" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-14" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(Backup Role)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
@@ -1011,7 +1011,7 @@
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-20" value="RDS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="350" y="-803" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-26" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) from Vault&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-26" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) Vault key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="265" y="-536" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
@@ -1023,7 +1023,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-31" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) from origin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-31" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) resource key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="263" y="-791" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
