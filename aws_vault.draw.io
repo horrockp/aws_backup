@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="4594" dy="2824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5714" dy="3363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -1065,7 +1065,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-52" value="Resource Alignment (Tag)" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Tag.svg;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-1600.77" y="-791" width="30.54" height="30" as="geometry" />
+          <mxGeometry x="-1602.77" y="-795" width="30.54" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
