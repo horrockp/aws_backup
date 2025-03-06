@@ -938,7 +938,7 @@
             <mxPoint x="330" y="-283" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-154" value="devops role creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4ELEi_1Yac6hKeduee7r-153" vertex="1" connectable="0">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-154" value="devops role creation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="4ELEi_1Yac6hKeduee7r-153" vertex="1" connectable="0">
           <mxGeometry x="-0.015" y="1" relative="1" as="geometry">
             <mxPoint x="20" as="offset" />
           </mxGeometry>
