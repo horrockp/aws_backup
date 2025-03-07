@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.1.0" pages="2">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="7972" dy="4458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6089" dy="3528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -947,8 +947,8 @@
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="678.5" y="-235" as="targetPoint" />
-            <mxPoint x="679" y="-135" as="sourcePoint" />
+            <mxPoint x="678.5" y="-226" as="targetPoint" />
+            <mxPoint x="679" y="-126" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-159" value="SSO" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.single_sign_on;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
@@ -1043,7 +1043,7 @@
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-36" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-977" y="236" width="21" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1014" y="211" as="sourcePoint" />
             <mxPoint x="-911" y="211.04000000000002" as="targetPoint" />
@@ -1090,7 +1090,7 @@
           <mxGeometry x="-2198" y="129" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CaGiZCkFB656JY5QjU3u-0" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Restore Solution&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Backups can be restored on-demand locally from the member backup vault, restored inside the backup account environment&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-1193.5" y="-1320" width="560" height="70" as="geometry" />
+          <mxGeometry x="-1193.5" y="-1322" width="560" height="42" as="geometry" />
         </mxCell>
         <mxCell id="rvpBQ0DGColuUaEPxzKG-5" value="&lt;div dir=&quot;auto&quot;&gt;&lt;div dir=&quot;auto&quot;&gt;{&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Effect&quot;: &quot;Deny&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Action&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:StartBackupJob&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;PutBackupVaultAccessPolicy&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteRecoveryPoint&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;UpdateRecoveryPointLifecycle&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateBackupSelection&quot;&lt;wbr&gt;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupSelection&quot;&lt;wbr&gt;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateReportPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateReportPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteReportPlan&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Resource&quot;: &quot;*&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Condition&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&lt;div dir=&quot;auto&quot;&gt;&quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;aws:PrincipalArn&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/&lt;em&gt;AWSBackupDefaultServiceRole&quot;&lt;/em&gt;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/AWSServiceRoleforBackup/*&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2520" y="-1044" width="340" height="380" as="geometry" />
