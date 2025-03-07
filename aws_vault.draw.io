@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.1.0" pages="2">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="6627" dy="3992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5433" dy="3329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -816,6 +816,14 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-31" value="&lt;div&gt;Recovery&lt;/div&gt;&lt;div&gt;&amp;nbsp;Point&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_recovery_point_objective;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-950" y="360" width="48" height="47.38" as="geometry" />
         </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;entryX=0.5;entryY=1.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-32" target="4ELEi_1Yac6hKeduee7r-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Restore&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JEErukwOESiVvcqC74Wm-7">
+          <mxGeometry x="-0.0384" y="2" relative="1" as="geometry">
+            <mxPoint x="41" y="-184" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-32" value="&lt;div&gt;Recovery&lt;/div&gt;&lt;div&gt;&amp;nbsp;Point&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_recovery_point_objective;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-880" y="362" width="48" height="47.38" as="geometry" />
         </mxCell>
@@ -1120,6 +1128,14 @@
         <mxCell id="JEErukwOESiVvcqC74Wm-6" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
           <mxGeometry x="-1804.5" y="-1260" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-9" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="210" y="330" width="30" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;li&gt;The backup vault has to be accessible from the origin account&lt;/li&gt;&#xa;&lt;li&gt;The KMS encryption key has to be accessible by the role &lt;em&gt;AWSServiceRoleForBackup&lt;/em&gt; from the destination account&lt;/li&gt;" id="JEErukwOESiVvcqC74Wm-10">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+            <mxGeometry x="265" y="322" width="395" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
