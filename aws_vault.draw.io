@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.1.0" pages="2">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="4522" dy="2894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6627" dy="3992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -48,7 +48,7 @@
             </ResourceDescriptor>
           </mxCell>
         </object>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1730" y="-930" width="220" height="97" as="geometry" />
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-105" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
@@ -837,7 +837,7 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-48" value="Prod" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.organizations_organizational_unit2;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1569" y="-902" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" source="4ELEi_1Yac6hKeduee7r-137">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-137" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1510" y="-812" as="sourcePoint" />
             <mxPoint x="-1418" y="-812" as="targetPoint" />
@@ -852,7 +852,7 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-64" value="Prod and non-Prod Policies applied to OU. These policies have different retention values in-line with each requirement. A back selection is also created as part of the policy to target RDS and DynamoDB using  resource alignment (Resource ID or Tag)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2065" y="-819" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4ELEi_1Yac6hKeduee7r-65" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" target="4ELEi_1Yac6hKeduee7r-56" source="4ELEi_1Yac6hKeduee7r-138">
+        <mxCell id="4ELEi_1Yac6hKeduee7r-65" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-138" target="4ELEi_1Yac6hKeduee7r-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1780" y="-810" as="sourcePoint" />
             <mxPoint x="-1660.4999999999995" y="-810.2499999999998" as="targetPoint" />
@@ -970,10 +970,10 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-172" value="&lt;div&gt;Custom backup role.Allows for all backup and restore operations. &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2083" y="511" width="187" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-1" value="Organizations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-1" value="Organizations" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1650" y="-934.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1549" y="-822" as="sourcePoint" />
             <mxPoint x="-1549.28" y="-853" as="targetPoint" />
@@ -982,39 +982,39 @@
         <mxCell id="4ELEi_1Yac6hKeduee7r-56" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.backup;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1643" y="-823" width="23" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-9" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-9" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-902" y="522.22" width="58" height="32.72" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-10" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-10" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-110" y="-783.0000000000001" width="58" height="32.72" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" target="Vr7T0E1yOJ3Gc7sArdUd-9">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" target="Vr7T0E1yOJ3Gc7sArdUd-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-700" y="539" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-11" value="&lt;li&gt;This is a service-linked role, which is automatically created by AWS Backup and used by AWS backup service itself..&lt;/li&gt;&lt;br&gt;&lt;li&gt;It&#39;s used for core AWS Backup operations, such as listing resources that can be backed up and copying backups.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-11" value="&lt;li&gt;This is a service-linked role, which is automatically created by AWS Backup and used by AWS backup service itself..&lt;/li&gt;&lt;br&gt;&lt;li&gt;It&#39;s used for core AWS Backup operations, such as listing resources that can be backed up and copying backups.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-690" y="498.58" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-14" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(&lt;em&gt;AWSBackupDefaultServiceRole&lt;/em&gt;)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-14" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(&lt;em&gt;AWSBackupDefaultServiceRole&lt;/em&gt;)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="350" y="-415.03999999999996" width="58" height="32.72" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-15" value="&lt;div&gt;&quot;AWSBackupServiceRolePolicyForBackup&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For cross-account backups using AWS Backup, the destination account role needs access to the KMS keys in the source account. &lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-15" value="&lt;div&gt;&quot;AWSBackupServiceRolePolicyForBackup&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For cross-account backups using AWS Backup, the destination account role needs access to the KMS keys in the source account. &lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2083" y="643" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-16" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-16" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.permissions;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2030" y="554.94" width="49.79" height="62.64" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-19" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-19" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="350" y="-550" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-20" value="RDS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-20" value="RDS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="350" y="-803" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-26" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) Vault key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-26" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) Vault key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="265" y="-536" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="-504" as="sourcePoint" />
             <mxPoint x="250" y="-594" as="targetPoint" />
@@ -1023,40 +1023,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-31" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) resource key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-31" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK) resource key&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="263" y="-791" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="354" y="-757" as="sourcePoint" />
             <mxPoint x="188" y="-677" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-34" target="4ELEi_1Yac6hKeduee7r-30">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-34" target="4ELEi_1Yac6hKeduee7r-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-34" value="RDS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-34" value="RDS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1071.5" y="187" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-35" target="4ELEi_1Yac6hKeduee7r-31">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-35" target="4ELEi_1Yac6hKeduee7r-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-35" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-35" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-917" y="186" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-36" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-36" value="&lt;div&gt;AWS KMS&lt;/div&gt;&lt;div&gt;&amp;nbsp;(CMK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-977" y="236" width="21" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1014" y="211" as="sourcePoint" />
             <mxPoint x="-911" y="211.04000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is &quot;unsupported&quot;. It will use the same KMS encryption key from source.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-49" value="&lt;div&gt;RDS is &quot;unsupported&quot;. It will use the same KMS encryption key from source.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="520" y="-780.28" width="187" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-49" target="Vr7T0E1yOJ3Gc7sArdUd-20">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-49" target="Vr7T0E1yOJ3Gc7sArdUd-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="-774" />
@@ -1064,43 +1064,61 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-52" value="&lt;div&gt;Resource&amp;nbsp;&lt;/div&gt;&lt;div&gt;Alignment (Tag)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Tag.svg;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-52" value="&lt;div&gt;Resource&amp;nbsp;&lt;/div&gt;&lt;div&gt;Alignment (Tag)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Tag.svg;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1709.54" y="-789" width="30.54" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-53" value="&lt;div&gt;DynamoDB is &quot;supported&quot; and will be encrypted with the KMS CMK from the vault&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-53" value="&lt;div&gt;DynamoDB is &quot;supported&quot; and will be encrypted with the KMS CMK from the vault&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="520" y="-536" width="187" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-53" target="Vr7T0E1yOJ3Gc7sArdUd-19">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="Vr7T0E1yOJ3Gc7sArdUd-53" target="Vr7T0E1yOJ3Gc7sArdUd-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div class=&quot;aju&quot;&gt;&lt;div class=&quot;aCi&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;gs&quot;&gt;&lt;div class=&quot;gE iv gt&quot;&gt;&lt;table class=&quot;cf gJ&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;acZ&quot;&gt;&lt;td class=&quot;gF gK&quot;&gt;&lt;table class=&quot;cf ix&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;c2&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td class=&quot;gH bAk&quot;&gt;&lt;div class=&quot;gK&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;table class=&quot;cf gJ&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;acZ&quot;&gt;&lt;td class=&quot;gH&quot;&gt;&lt;/td&gt;&lt;td rowspan=&quot;2&quot; class=&quot;gH acX bAm&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&quot;gE iv gt&quot;&gt;&lt;/div&gt;&lt;table class=&quot;cf gJ&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;acZ xD&quot;&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table class=&quot;cf gJ&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;acZ xD&quot;&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;table class=&quot;cf adz&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;ady&quot;&gt;&lt;div class=&quot;iw ajw&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div aria-label=&quot;Show details&quot; data-tooltip=&quot;Show details&quot; tabindex=&quot;0&quot; role=&quot;button&quot; class=&quot;ajy&quot; aria-haspopup=&quot;true&quot; id=&quot;:nt&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;https://mail.google.com/mail/u/0/images/cleardot.gif&quot; class=&quot;ajz&quot;&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div id=&quot;:nf&quot;&gt;&lt;div class=&quot;KKSLrd&quot;&gt;&lt;/div&gt;&lt;div class=&quot;qQVYZb&quot;&gt;&lt;/div&gt;&lt;div class=&quot;utdU2e&quot;&gt;&lt;/div&gt;&lt;div class=&quot;lQs8Hd&quot;&gt;&lt;/div&gt;&lt;div class=&quot;wl4W9b&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;aHl&quot;&gt;&lt;/div&gt;&lt;div tabindex=&quot;-1&quot; id=&quot;:ns&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ii gt&quot; id=&quot;:ni&quot;&gt;&lt;div class=&quot;a3s aiL&quot; id=&quot;:nh&quot;&gt;&lt;div dir=&quot;auto&quot;&gt;&lt;div dir=&quot;auto&quot;&gt;{&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Effect&quot;: &quot;Deny&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Action&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;PutBackupVaultAccessPolicy&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;DeleteBackupVaultAccessPolicy&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Resource&quot;: &quot;*&quot;,&lt;br&gt;&lt;div dir=&quot;auto&quot;&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Condition&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;aws:PrincipalArn&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/&lt;em&gt;AWSBackupDefaultServiceRole&lt;/em&gt;&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/AWSServiceRoleforBackup/*&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" id="Vr7T0E1yOJ3Gc7sArdUd-57">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxCell style="text;whiteSpace=wrap;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
             <mxGeometry x="-2073" y="-590" width="430" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-58" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;fillColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2111.5" y="-518" width="341.5" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-62" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-2150" y="-980.75" width="30" height="30" as="geometry" />
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-62" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+          <mxGeometry x="-2105.5" y="-990" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-64" value="&lt;div&gt;SCP policy to remove write access to Backup account for platform tenants&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-2093" y="-980.75" width="200" height="30" as="geometry" />
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-64" value="&lt;div&gt;SCP policy to remove write access to Backup account for platform tenants&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+          <mxGeometry x="-2067" y="-980.75" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-65" value="Also add policy to restrict access to platofrm tenant " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-65" value="Also add policy to restrict access to platofrm tenant " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2153" y="130" width="275" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-66" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-66" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2198" y="129" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CaGiZCkFB656JY5QjU3u-0" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Restore Solution&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Backups can be restored on-demand locally from the member backup vault, restored inside the backup account environment&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="CaGiZCkFB656JY5QjU3u-0" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Restore Solution&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Backups can be restored on-demand locally from the member backup vault, restored inside the backup account environment&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-1193.5" y="-1320" width="560" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rvpBQ0DGColuUaEPxzKG-5" value="&lt;div dir=&quot;auto&quot;&gt;&lt;div dir=&quot;auto&quot;&gt;{&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Effect&quot;: &quot;Deny&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Action&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:StartBackupJob&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;PutBackupVaultAccessPolicy&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteRecoveryPoint&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;UpdateRecoveryPointLifecycle&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateBackupSelection&quot;&lt;wbr&gt;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupSelection&quot;&lt;wbr&gt;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateReportPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateReportPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteReportPlan&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Resource&quot;: &quot;*&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Condition&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&lt;div dir=&quot;auto&quot;&gt;&quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;aws:PrincipalArn&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/&lt;em&gt;AWSBackupDefaultServiceRole&quot;&lt;/em&gt;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/AWSServiceRoleforBackup/*&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
-          <mxGeometry x="-2520" y="-1040" width="480" height="380" as="geometry" />
+        <mxCell id="rvpBQ0DGColuUaEPxzKG-5" value="&lt;div dir=&quot;auto&quot;&gt;&lt;div dir=&quot;auto&quot;&gt;{&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Effect&quot;: &quot;Deny&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Action&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:StartBackupJob&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupVault&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;PutBackupVaultAccessPolicy&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteRecoveryPoint&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:&lt;wbr&gt;UpdateRecoveryPointLifecycle&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateBackupSelection&quot;&lt;wbr&gt;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteBackupSelection&quot;&lt;wbr&gt;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:CreateReportPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:UpdateReportPlan&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;backup:DeleteReportPlan&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; ],&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Resource&quot;: &quot;*&quot;,&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &quot;Condition&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;&lt;div dir=&quot;auto&quot;&gt;&quot;StringNotLike&quot;: {&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;aws:PrincipalArn&quot;: [&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/&lt;em&gt;AWSBackupDefaultServiceRole&quot;&lt;/em&gt;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;arn:aws:iam::*:role/AWSServiceRoleforBackup/*&quot;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;&amp;nbsp; }&lt;/div&gt;&lt;div dir=&quot;auto&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
+          <mxGeometry x="-2520" y="-1044" width="340" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="rvpBQ0DGColuUaEPxzKG-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+        <mxCell id="rvpBQ0DGColuUaEPxzKG-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
           <mxGeometry x="-2558" y="-1044" width="360" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1840" y="50" as="sourcePoint" />
+            <mxPoint x="-2000" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-3" value="For restores back to the member account, the policy needs to allow cross account access. The Workload account need to be granted permission to restore backups." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-2150" y="-80" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-4" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-2198" y="-90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-5" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="310" y="-657" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JEErukwOESiVvcqC74Wm-6" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188">
+          <mxGeometry x="-1804.5" y="-1260" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
