@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.1.0" pages="2">
   <diagram name="Cross-Account and Cross-Region Solution" id="MN3vT83M8JpsDk6bnzdzP">
-    <mxGraphModel dx="5433" dy="3329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7972" dy="4458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ac2m1fOzcvB4Ko4bX1cEW-187" nextCellIdValue="344">
           <ResourceDescriptor resource="_:ac2m1fOzcvB4Ko4bX1cEW-187" serialization-version="v0" as="resourceDescriptor">
@@ -130,7 +130,7 @@
           </mxCell>
         </object>
         <object label="" stencilType="generic-channel" id="pHTv7vlGpXE6G7NwfBMzh-339">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=1;jettySize=auto;orthogonalLoop=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" rdfUpgraded="1" assetTypeVersion="3">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=1;jettySize=auto;orthogonalLoop=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" edge="1" rdfUpgraded="1" assetTypeVersion="3">
             <mxGeometry relative="1" as="geometry">
               <Array as="points">
                 <mxPoint x="20" y="40" />
@@ -151,23 +151,11 @@
             </ResourceDescriptor>
           </mxCell>
         </object>
-        <object label="copy of recovery points" stencilType="text" id="2M9-GdNkQY2YrBfbwLWV7-342">
-          <mxCell style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="pHTv7vlGpXE6G7NwfBMzh-339" vertex="1" connectable="0" rdfUpgraded="1" assetTypeVersion="3">
-            <mxGeometry x="-0.4695" y="-21" relative="1" as="geometry">
-              <mxPoint x="-238" y="136" as="offset" />
-            </mxGeometry>
-            <ResourceDescriptor resource="_:2M9-GdNkQY2YrBfbwLWV7-342" serialization-version="v0" as="resourceDescriptor">
-              <SemanticDataContainer serialization-version="v0">
-                <StringLiteral content="2M9-GdNkQY2YrBfbwLWV7-342" property="https://ontology.security.amazon.dev/foundation/diagram-visualization/a2255956-c3df-4c2c-b489-c307f68abc97" />
-                <IRI resource="https://ontology.security.amazon.dev/design-inspector/components/4f51991f-f3c6-4a47-9b00-013560ab92f4" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
-                <IRI resource="https://ontology.security.amazon.dev/foundation/graph-structure/0b4eeac8-04e5-4e85-869c-bd56fb947b7b" property="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
-                <IRI resource="https://ontology.security.amazon.dev/design-inspector/components/84a80b5f-5642-4a17-9585-ebfdb65f4bec" property="https://ontology.security.amazon.dev/foundation/system-modeling/04539597-4283-4f65-8090-ae67f9d3e949" />
-                <StringLiteral content="copy of recovery points" property="http://www.w3.org/2000/01/rdf-schema#label" />
-                <StringLiteral content="MN3vT83M8JpsDk6bnzdzP" property="https://ontology.security.amazon.dev/foundation/diagram-visualization/05cc531c-d241-49c3-80dc-bd3777c5426f" />
-              </SemanticDataContainer>
-            </ResourceDescriptor>
-          </mxCell>
-        </object>
+        <mxCell id="JEErukwOESiVvcqC74Wm-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;copy of recovery points&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pHTv7vlGpXE6G7NwfBMzh-339">
+          <mxGeometry x="0.0855" relative="1" as="geometry">
+            <mxPoint x="-99" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <object label="" stencilType="generic-component" id="5UrY98Gwkio73_ICnQnJg">
           <mxCell style="rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;html=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1" rdfUpgraded="1" assetTypeVersion="3">
             <mxGeometry x="28.5" y="-711.5" width="260" height="145" as="geometry" />
@@ -819,9 +807,9 @@
         <mxCell id="JEErukwOESiVvcqC74Wm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;entryX=0.5;entryY=1.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ac2m1fOzcvB4Ko4bX1cEW-188" source="4ELEi_1Yac6hKeduee7r-32" target="4ELEi_1Yac6hKeduee7r-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JEErukwOESiVvcqC74Wm-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Restore&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JEErukwOESiVvcqC74Wm-7">
+        <mxCell id="JEErukwOESiVvcqC74Wm-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;restore&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JEErukwOESiVvcqC74Wm-7">
           <mxGeometry x="-0.0384" y="2" relative="1" as="geometry">
-            <mxPoint x="41" y="-184" as="offset" />
+            <mxPoint x="63" y="-240" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4ELEi_1Yac6hKeduee7r-32" value="&lt;div&gt;Recovery&lt;/div&gt;&lt;div&gt;&amp;nbsp;Point&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_recovery_point_objective;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
@@ -994,7 +982,7 @@
           <mxGeometry x="-902" y="522.22" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-10" value="&lt;div&gt;IAM Role&lt;/div&gt;&lt;div&gt;(AWSServiceRoleforBackup)&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" vertex="1">
-          <mxGeometry x="-110" y="-783.0000000000001" width="58" height="32.72" as="geometry" />
+          <mxGeometry x="-3.75" y="-920.0000000000001" width="58" height="32.72" as="geometry" />
         </mxCell>
         <mxCell id="Vr7T0E1yOJ3Gc7sArdUd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="ac2m1fOzcvB4Ko4bX1cEW-188" target="Vr7T0E1yOJ3Gc7sArdUd-9" edge="1">
           <mxGeometry relative="1" as="geometry">
